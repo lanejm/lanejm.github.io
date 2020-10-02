@@ -27,7 +27,7 @@ body {
         rgba(0,0,0,.5),
         rgba(0,0,0,0.75),
         rgba(0,0,0,1)),
-        url('assets/IrelandBackground.JPG');
+        url('./assets/IrelandBackground.JPG');
         background-size: cover;
         height: 100vh;
     font-style: normal;
