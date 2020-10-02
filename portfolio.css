@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(182, 180, 180);
+    font-family: 'Kufam', cursive, sans-serif;
+}
+.navbar-nav ul li {
+        position:absolute;
+        left:0;
+        top:36px;
+        z-index:1;
+}
+.navbar-nav ul li {
+        overflow:hidden;
+        height:0;
+        -webkit-transition:height 200ms ease-in;
+        -moz-transition:height 200ms ease-in;
+        -o-transition:height 200ms ease-in;
+        transition:height 200ms ease-in;
+}
+.navbar-nav ul > li:hover {
+        height:36px;
+}
+    
+.jumbotron {
+    background-image: radial-gradient(
+        rgba(0,0,0,0),
+        rgba(0,0,0,.25),
+        rgba(0,0,0,.5),
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,1)),
+        url('./assets/Ireland\ Background.JPG');
+        background-size: cover;
+        height: 100vh;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    padding-right: 40px;
+    font-size: 100px;
+    font-family: 'Kufam', cursive, sans-serif;
+}
+
+.h4, h4 {
+    font-size: 18px;
+}
+
+#about {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+}
+
+#portfolio {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#resume {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.footer {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   align-content: center;
+}
+
+
+.column {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.row1 {
+display: flex;
+flex: 50%;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.linkedinImage {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.githubImage {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card {
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: white;
+}
+
+.fiftylink {
+    color: black;
+}
+
+.container2 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.container3 {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    border: 5px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    background-color: rgb(52,58,64);
+    text-align: center;
+}
+
+.card-text {
+    align-content: center;
+    flex-wrap: wrap;
+}
